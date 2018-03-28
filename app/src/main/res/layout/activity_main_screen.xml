@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:orientation="vertical"
+    tools:context="com.costi.labmobile.MainScreenActivity">
+
+    <Button
+        android:id="@+id/btn_go_to_products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/view_products"
+        android:textSize="26sp"
+        android:background="@drawable/rounded_corner_button"
+        android:layout_weight="1"
+        />
+    <Button
+        android:id="@+id/btn_go_to_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/view_chart"
+        android:textSize="26sp"
+        android:background="@drawable/rounded_corner_button"
+        android:layout_weight="1"
+        />
+    <Button
+        android:id="@+id/btn_go_to_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/about_us"
+        android:textSize="26sp"
+        android:background="@drawable/rounded_corner_button"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

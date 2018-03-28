@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.costi.labmobile.AboutActivity">
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pie_chart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/contact_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dare to contact us"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_below="@id/pie_chart"
+        />
+
+    <TextView
+        android:id="@+id/call_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone: 0757 - 189 - 383"
+        android:textSize="28sp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/contact_us"
+        />
+
+    <TextView
+        android:id="@+id/email_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: oncioiu.costi@gmail.com"
+        android:layout_marginLeft="10dp"
+        android:textSize="28sp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/call_us"
+        />
+    
+
+</RelativeLayout>
